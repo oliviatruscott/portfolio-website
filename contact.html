@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <img src="images/logo.jpg" alt="logo" class="page-header__item">
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" target="blank" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a></li>
+          <li role="presentation">
+            <a href="about.html" target="blank" role="menuitem" class="navigation-list__item">About</a></li>
+          <li role="presentation">
+            <a href="work.html" target="blank" role="menuitem" class="navagation-list__item">Work</a></li>
+          <li role="presentation">
+            <a href="contact.html" target="blank" role="menuitem" class="navigation-list__item"> Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Contact</h1>
+      <div>
+        Olivia Truscott<br>
+        Los Angeles<br>
+        <br>
+        <!-- double check this number -->
+        Call me at <a href="tel:+18584422770">+1 8584422770</a><br>
+        Email me <a href="mailto:olivia@truscottdesigns.com">here</a>
+        <p>For more information, please visit my <a href="about.html" rel="about">about</a> page.</p>
+      </div>
+      <div>
+        <form action="" method="post" id="contact-form">
+          <label class="standard-label" for="contact-email">E-mail: </label>
+          <input type="email" id="contact-email" required>
+          <label class="standard-label" for="contact-tel">Phone: </label>
+          <input type="tel" patters="/d{3}[/-]/d{3}[/-]/d{4}" id="contact-tel">
+          <label class="standard-label" for="contact-message">Message: </label>
+          <textarea maxlength="240" id="contact-message" required></textarea>
+          <input type="submit" value="Send Message">
+        </form>
+    </main>
+
+    <footer class="page-footer">
+      <p>You can find me on</p>
+      <div class="social-media">
+        <!-- linkedin icon is slightly smaller than other icons for unknown reason, find new icon -->
+        <img src="images/linkedinicon.svg" alt="LinkedIn" width="30" height="30">
+        <img src="images/githubicon.svg" alt="Github" width="30" height="30">
+        <img src="images/instagramicon.svg" alt="Instagram" width="30" height="30">
+      </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+  </body>
+</html>
