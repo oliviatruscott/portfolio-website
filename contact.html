@@ -32,22 +32,22 @@
         Olivia Truscott<br>
         Los Angeles<br>
         <br>
-        <!-- double check this number -->
         Call me at <a href="tel:+18584422770">+1 8584422770</a><br>
         Email me <a href="mailto:olivia@truscottdesigns.com">here</a>
         <p>For more information, please visit my <a href="about.html" rel="about">about</a> page.</p>
       </div>
       <div>
-        <form action="" method="post" id="contact-form">
+        <form method="post" id="contact-form">
           <label class="standard-label" for="contact-email">E-mail: </label>
           <input type="email" id="contact-email" required><br>
           <label class="standard-label" for="contact-tel">Phone: </label>
-          <input type="tel" patters="/d{3}[/-]/d{3}[/-]/d{4}" id="contact-tel"><br>
+          <input id="contact-tel" type="tel"><br>
           <label class="standard-label" for="contact-message">Message: </label>
           <textarea maxlength="240" id="contact-message" required></textarea><br>
           <br>
           <input type="submit" value="Send Message">
         </form>
+      </div>
     </main>
 
     <footer class="page-footer">
